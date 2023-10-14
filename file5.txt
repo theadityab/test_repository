@@ -1,1 +1,2 @@
 s is some  text
+some text
