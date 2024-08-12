@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #FFC0CB; /* Changed to pink */
+    background-color: #FFC0CB; /* Pink background */
     color: green;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #FF0000; /* Red background */
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -26,7 +26,7 @@ p {
 }
 
 footer {
-    background-color: #333;
+    background-color: #FF0000; /* Red background */
     color: white;
     text-align: center;
     padding: 10px 0;
