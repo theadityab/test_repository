@@ -5,8 +5,7 @@ FROM tomcat:9.0
 RUN rm -rf /usr/local/tomcat/webapps/*
 
 # Copy your static content into the Tomcat webapps directory
-COPY index.html /usr/local/tomcat/webapps/ROOT/
-COPY styles.css /usr/local/tomcat/webapps/ROOT/
+COPY env-var-webapp.war /usr/local/tomcat/webapps/
 
 # Expose port 8080
 EXPOSE 8080
